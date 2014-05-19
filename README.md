@@ -18,4 +18,8 @@ Bangalore
 India
 >>>>>>> 34896872d16234269de4e52642af10e21ded69a7
 
+<<<<<<< HEAD
 
+=======
+User conflict
+>>>>>>> 1a3dfb77f8fabcc0558718e33dbf045cd826d6bb
