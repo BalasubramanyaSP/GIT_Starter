@@ -1,0 +1,16 @@
+
+Class  ItemSearch
+{
+
+
+private Stringloccation,item;
+private int min_prize,max_prize,prize;
+
+Search(location)
+search(location,item)
+search(item)
+search(location,prize) 
+search(location,item,prize)
+search(location,item,min_prize,maxprize)
+search(location,min_prize,maxprize)
+}
