@@ -1,0 +1,31 @@
+create table User (user_id integer(10),
+password varchar(15),
+first_name varchar(20),
+last_name   varchar(20),
+gender  varchar(10),
+phone  integer(12),
+email varchar(20),  
+house_num varchar(10),
+street   varchar(20),
+locality varchar(15);
+pincode integer(6),
+created_date TIMESTAMP,
+photo    BLOB,
+location_id varchar (15) NOT NULL,
+PRIMARY KEY(user_id),
+FOREIGN KEY (location_id)REFERENCES Location(location_id));
+
+//EMAIL IS USERNAME
+
+
+create table Location(location_id varchar(15),countryname varchar(15) not null,
+statename varchar(15) not null,
+cityname varchar(15) not null,
+primary key(location_id)
+);
+
+
+
+
+
+
